@@ -1,0 +1,20 @@
+{
+  "name": "ebc-database",
+  "version": "1.0.0",
+  "description": "A Airtable clone for EBC",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node api/index.js",
+    "build": "node api/index.mjs",
+    "preview": "node api/index.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nocodb": "^0.111.0"
+  }
+}
