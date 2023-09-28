@@ -5,8 +5,8 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "start": "node api/index.js",
-    "build": "node api/index.mjs",
+    "start": "node index.js",
+    "build": "echo build command",
     "preview": "node api/index.mjs"
   },
   "keywords": [],
